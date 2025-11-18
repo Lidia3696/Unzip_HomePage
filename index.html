@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>UNZIP WEB DEVELOPERS</title>
+<meta name="description" content="Professional web development studio in Tarragona">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/fontAwesome.css">
+<link rel="stylesheet" href="css/hero-slider.css">
+<link rel="stylesheet" href="css/owl-carousel.css">
+<link rel="stylesheet" href="css/templatemo-style.css">
+<link rel="stylesheet" href="css/lightbox.css">
+
+<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+<style>
+body {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-inverse {
+    background: rgba(10,10,10,0.95);
+    border: none;
+    box-shadow: 0 0 20px #00f0ff;
+}
+.navbar-inverse .navbar-brand {
+    color: #00f0ff;
+    font-weight: 800;
+    text-shadow: 0 0 10px #00f0ff, 0 0 20px #0ff;
+}
+.navbar-inverse .nav > li > a {
+    color: #bbb;
+    font-weight: 600;
+}
+.navbar-inverse .nav > li > a:hover {
+    color: #0ff;
+    text-shadow: 0 0 8px #0ff;
+}
+
+
+
+.baner-content h2 {
+    font-size: 52px;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 0 0 10px #00f0ff, 0 0 20px #0ff;
+}
+.baner-content h2 em,
+.baner-content h2 span {
+    color: #0ff;
+    text-shadow: 0 0 15px #0ff, 0 0 30px #00f0ff;
+}
+.primary-white-button a {
+    background: #0ff;
+    color: #000;
+    font-weight: 700;
+    padding: 14px 28px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #0ff, 0 0 40px #00f0ff;
+    transition: all 0.3s ease;
+}
+.primary-white-button a:hover {
+    box-shadow: 0 0 30px #0ff, 0 0 60px #00f0ff;
+    transform: translateY(-3px);
+}
+
+.service-item {
+    background: #111;
+    border-radius: 15px;
+    border: 1px solid rgba(0,255,255,0.2);
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,255,255,0.15);
+    transition: 0.3s;
+}
+.service-item:hover {
+    box-shadow: 0 0 25px rgba(0,255,255,0.5);
+    transform: translateY(-5px);
+}
+.service-item h4 {
+    color: #0ff;
+    text-shadow: 0 0 8px #0ff, 0 0 15px #00f0ff;
+}
+.primary-blue-button a {
+    background: #0ff;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px #0ff, 0 0 30px #00f0ff;
+    transition: 0.3s;
+}
+.primary-blue-button a:hover {
+    box-shadow: 0 0 25px #0ff, 0 0 50px #00f0ff;
+    transform: translateY(-2px);
+}
+
+.section-heading h4 {
+    color: #0ff;
+    font-weight: 800;
+    text-shadow: 0 0 10px #0ff, 0 0 20px #00f0ff;
+}
+.line-dec {
+    width: 60px;
+    height: 3px;
+    background: #0ff;
+    box-shadow: 0 0 10px #0ff, 0 0 20px #00f0ff;
+    margin: 12px auto;
+}
+.project-item img {
+    border-radius: 10px;
+    box-shadow: 0 0 12px #0ff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.project-item:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #0ff, 0 0 40px #00f0ff;
+}
+
+.tabs a {
+    color: #bbb;
+    font-weight: 600;
+}
+.tabs a.active, .tabs a:hover {
+    color: #0ff;
+    text-shadow: 0 0 8px #0ff;
+}
+.tabgroup .text-content h4 {
+    color: #0ff;
+    text-shadow: 0 0 8px #0ff, 0 0 15px #00f0ff;
+}
+
+.pop {
+    background: #111;
+    border-radius: 15px;
+    padding: 25px;
+    border: 1px solid rgba(0,255,255,0.2);
+    box-shadow: 0 0 20px #0ff;
+}
+.pop input, .pop textarea {
+    background: #0a0a0a;
+    border: 1px solid #0ff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.pop button {
+    background: #0ff;
+    color: #000;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px 20px;
+    box-shadow: 0 0 15px #0ff, 0 0 30px #00f0ff;
+}
+.pop button:hover {
+    box-shadow: 0 0 25px #0ff, 0 0 50px #00f0ff;
+}
+
+footer {
+    background: #06090c;
+    color: #bbb;
+}
+footer h4, footer .logo-ft {
+    color: #0ff;
+    text-shadow: 0 0 8px #0ff;
+}
+footer a {
+    color: #bbb;
+}
+footer a:hover {
+    color: #0ff;
+    text-shadow: 0 0 6px #0ff;
+}
+</style>
+</head>
+
+<body>
+<div class="header">
+    <div class="container">
+        <nav class="navbar navbar-inverse" role="navigation">
+            <div class="navbar-header">
+                <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand scroll-top"><em>UN</em>zip</a>
+            </div>
+            <div id="main-nav" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#" class="scroll-top">Home</a></li>
+                    <li><a href="#" class="scroll-link" data-id="about">About Us</a></li>
+                    <li><a href="#" class="scroll-link" data-id="portfolio">Portfolio</a></li>
+                    <li><a href="#" class="scroll-link" data-id="blog">Blog</a></li>
+                    <li><a href="#" class="scroll-link" data-id="contact-us">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<div class="parallax-content baner-content" id="home">
+    <div class="container">
+        <div class="text-content">
+            <h2><em>UNZIP</em> <span>WEB</span> DEVELOPERS</h2>
+            <p>We are a web development and management studio based in Tarragona. We combine strategy, design, marketing, and web development to offer personalized and efficient solutions.</p>
+            <div class="primary-white-button">
+                <a href="#" class="scroll-link" data-id="about">Our Projects</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section id="about" class="page-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="service-item">
+                    <div class="icon"><img src="img/service_icon_01.png" alt=""></div>
+                    <h4>Smart Notifications</h4>
+                    <div class="line-dec"></div>
+                    <p>Receive intelligent notifications about important updates and security alerts so you are always aware of your website's activity.</p>
+                    <div class="primary-blue-button">
+                        <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="service-item">
+                    <div class="icon"><img src="img/service_icon_02.png" alt=""></div>
+                    <h4>Lovely Web Design</h4>
+                    <div class="line-dec"></div>
+                    <p>We create beautiful, user-friendly, and responsive websites that adapt to all devices, enhancing your users' experience.</p>
+                    <div class="primary-blue-button">
+                        <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="service-item">
+                    <div class="icon"><img src="img/service_icon_03.png" alt=""></div>
+                    <h4>24/7 Quick Support</h4>
+                    <div class="line-dec"></div>
+                    <p>Our support team is available 24/7 to help you solve problems and keep your website running smoothly at all times.</p>
+                    <div class="primary-blue-button">
+                        <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="service-item">
+                    <div class="icon"><img src="img/service_icon_04.png" alt=""></div>
+                    <h4>One-Click Setup</h4>
+                    <div class="line-dec"></div>
+                    <p>Install and configure your website in seconds with our one-click setup system, no advanced technical knowledge required.</p>
+                    <div class="primary-blue-button">
+                        <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio">
+    <div class="content-wrapper">
+        <div class="inner-container container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="section-heading">
+                        <h4>Our Projects</h4>
+                        <div class="line-dec"></div>
+                        <p>We work with a wide variety of clients and adapt our designs to their specific needs.</p>
+                        <div class="filter-categories">
+                            <ul class="project-filter">
+                                <li class="filter" data-filter="all"><span>Show All</span></li>
+                                <li class="filter" data-filter="branding"><span>Magic Event Tarragona</span></li>
+                                <li class="filter" data-filter="graphic"><span>Shadi Treks</span></li>
+                                <li class="filter" data-filter="animation"><span>Cambra de Tarragona</span></li>
+                                <li class="filter" data-filter="animation"><span>Ajuntament de Tarragona</span></li>
+                                <li class="filter" data-filter="animation"><span>Tarragona Turisme</span></li>
+                                <li class="filter" data-filter="graphic"><span>Parc Central</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="projects-holder-3">
+                        <div class="projects-holder">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 project-item mix nature">
+                                    <div class="thumb"><div class="image"><a href="img/portfolio_big_item_01.png" data-lightbox="image-1"><img src="img/portfolio_item_01.png"></a></div></div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 project-item mix animation">
+                                    <div class="thumb"><div class="image"><a href="img/portfolio_big_item_02.png" data-lightbox="image-1"><img src="img/portfolio_item_02.png"></a></div></div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 project-item mix branding">
+                                    <div class="thumb"><div class="image"><a href="img/portfolio_big_item_03.png" data-lightbox="image-1"><img src="img/portfolio_item_03.png"></a></div></div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 project-item mix graphic nature">
+                                    <div class="thumb"><div class="image"><a href="img/portfolio_big_item_04.png" data-lightbox="image-1"><img src="img/portfolio_item_04.png"></a></div></div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 project-item mix branding">
+                                    <div class="thumb"><div class="image"><a href="img/portfolio_big_item_05.png" data-lightbox="image-1"><img src="img/portfolio_item_05.png"></a></div></div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 project-item mix graphic animation">
+                                    <div class="thumb"><div class="image"><a href="img/portfolio_big_item_06.png" data-lightbox="image-1"><img src="img/portfolio_item_06.png"></a></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div> 
+</section>
+
+<section id="testimonial">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div id="owl-testimonials" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="testimonials-item">
+                            <p>“Great treatment and service. I will contact again in the future.”</p>
+                            <h4>Albert Rich</h4>
+                            <span>Albert Restaurant Owner</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonials-item">
+                            <p>“Truly great professionals, they provide constant support and answer every question.”</p>
+                            <h4>Larisa Pitan</h4>
+                            <span>Store Owner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="tabs-content" id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="wrapper">
+                <div class="col-md-4">
+                    <div class="section-heading">
+                        <h4>Our Blog Posts</h4>
+                        <div class="line-dec"></div>
+                        <p>Check out our blog posts and discover how websites are made.</p>
+                        <ul class="tabs clearfix" data-tabgroup="first-tab-group">
+                            <li><a href="#tab1" class="active">Mastering Responsive Design Techniques</a></li>
+                            <li><a href="#tab2">Understanding CSS Grid for Web Layouts</a></li>
+                            <li><a href="#tab3">Optimizing Website Performance with Lazy Loading</a></li>
+                            <li><a href="#tab4">Creating Accessible Websites with Semantic HTML</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <section id="first-tab-group" class="tabgroup">
+                        <div id="tab1">
+                            <img src="img/blog_item_01.jpg" alt="">
+                            <div class="text-content">
+                                <h4>Mastering Responsive Design Techniques</h4>
+                                <span><a href="#">Web Design</a> / <a href="#">Alice</a> / <a href="#">10 October 2023</a></span>
+                                <p>Responsive design is essential for delivering a seamless user experience across all devices. In this post, we explore the best practices for creating flexible layouts that adapt to any screen size.</p>
+                            </div>
+                        </div>
+                        <div id="tab2">
+                            <img src="img/blog_item_02.webp" alt="">
+                            <div class="text-content">
+                                <h4>Understanding CSS Grid for Web Layouts</h4>
+                                <span><a href="#">Web Development</a> / <a href="#">David</a> / <a href="#">5 September 2023</a></span>
+                                <p>CSS Grid is a powerful tool for creating complex, responsive layouts. Learn how to use grid containers, tracks, and items to design websites that are both flexible and easy to manage.</p>
+                            </div>
+                        </div>
+                        <div id="tab3">
+                            <img src="img/blog_item_03.jpg" alt="">
+                            <div class="text-content">
+                                <h4>Optimizing Website Performance with Lazy Loading</h4>
+                                <span><a href="#">Web Development</a> / <a href="#">Emma</a> / <a href="#">15 August 2023</a></span>
+                                <p>Lazy loading is a technique that improves website performance by loading images and content only when they’re needed. Learn how to implement lazy loading in your web projects to enhance user experience and speed.</p>
+                            </div>
+                        </div>
+                        <div id="tab4">
+                            <img src="img/blog_post_4.png" alt="">
+                            <div class="text-content">
+                                <h4>Creating Accessible Websites with Semantic HTML</h4>
+                                <span><a href="#">Web Design</a> / <a href="#">George</a> / <a href="#">2 July 2023</a></span>
+                                <p>Using semantic HTML improves accessibility, SEO, and overall website usability. Learn how to structure your website for the best results.</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="contact-us">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-heading">
+                    <h4>Contact Us</h4>
+                    <div class="line-dec"></div>
+                    <p>Reach out through our social media, email, or visit our office. You can also send us a message directly below.</p>
+                    <div class="pop-button">
+                        <h4>Send us a message</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="pop">
+                    <span>✖</span>
+                    <form id="contact" action="#" method="post">
+                        <div class="row">
+                            <div class="col-md-12"><fieldset><input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required=""></fieldset></div>
+                            <div class="col-md-12"><fieldset><input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required=""></fieldset></div>
+                            <div class="col-md-12"><fieldset><textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea></fieldset></div>
+                            <div class="col-md-12"><fieldset><button type="submit" id="form-submit" class="btn">Send Message</button></fieldset></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3005.7177443374435!2d1.2488872573291148!3d41.11885505749824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1763482302330!5m2!1ses!2ses" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <div class="logo">
+                    <a class="logo-ft scroll-top" href="#"><em>UN</em>zip</a>
+                    <p>Copyright &copy; Unzip Web Developers</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="location">
+                    <h4>Location</h4>
+                    <ul><li>C/ Ing Cabistany, 42, <br>Tarragona 43000</li></ul>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-12">
+                <div class="contact-info">
+                    <h4>More Info</h4>
+                    <ul>
+                        <li><em>Phone</em>: 040-040-0440</li>
+                        <li><em>Email</em>: contact@unzip.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-12">
+                <div class="connect-us">
+                    <h4>Get Social with us</h4>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google"></i></a></li>
+                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.scroll-link').on('click', function(event){
+        event.preventDefault();
+        var sectionID = $(this).attr("data-id");
+        scrollToID('#' + sectionID, 750);
+    });
+    $('.scroll-top').on('click', function(event) {
+        event.preventDefault();
+        $('html, body').animate({scrollTop:0}, 'slow');         
+    });
+    $('#nav-toggle').on('click', function (event) {
+        event.preventDefault();
+        $('#main-nav').toggleClass("open");
+    });
+});
+
+function scrollToID(id, speed){
+    var offSet = 50;
+    var targetOffset = $(id).offset().top - offSet;
+    var mainNav = $('#main-nav');
+    $('html,body').animate({scrollTop:targetOffset}, speed);
+    if (mainNav.hasClass("open")) {
+        mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+        mainNav.removeClass("open");
+    }
+}
+if (typeof console === "undefined") { console = { log: function() { } }; }
+</script>
+</body>
+</html>
